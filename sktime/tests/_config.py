@@ -127,6 +127,9 @@ EXCLUDED_TESTS = {
     "DynamicFactor": [
         "test_predict_time_index_in_sample_full",  # refer to #4765
     ],
+    "DeepDynamicFactor": [
+        "test_predict_time_index_in_sample_full",  # capability:insample=False
+    ],
     "ARIMA": [
         "test_predict_time_index_in_sample_full",  # refer to #4765
     ],
